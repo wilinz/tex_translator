@@ -61,8 +61,8 @@
    ```
 翻译效果：
 原文：
-![tex_01.jpg](readme_assets/tex_01.jpg)![tex_02.jpg](readme_assets/tex_02.jpg)
-翻译后：![tex_tr_01.jpg](readme_assets/tex_tr_01.jpg)![tex_tr_02.jpg](readme_assets/tex_tr_02.jpg)
+![tex\_01.png](readme_assets/tex_01.png)![tex\_02.jpg](readme_assets/tex_02.png)
+翻译后：![tex\_tr\_01.png](readme_assets/tex_tr_01.png)![tex\_tr\_02.jpg](readme_assets/tex_tr_02.png)
 ### 许可
 
 本项目使用 MIT 许可证，详情请参见 [LICENSE](LICENSE)。

@@ -62,9 +62,9 @@ This project is designed for batch translation of natural language content in `.
 
 Translation Results:
 Original Text:
-![tex\_01.jpg](readme_assets/tex_01.jpg)![tex\_02.jpg](readme_assets/tex_02.jpg)
+![tex\_01.png](readme_assets/tex_01.png)![tex\_02.jpg](readme_assets/tex_02.png)
 Translated Text:
-![tex\_tr\_01.jpg](readme_assets/tex_tr_01.jpg)![tex\_tr\_02.jpg](readme_assets/tex_tr_02.jpg)
+![tex\_tr\_01.png](readme_assets/tex_tr_01.png)![tex\_tr\_02.jpg](readme_assets/tex_tr_02.png)
 
 ### License
 
