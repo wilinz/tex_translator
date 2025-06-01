@@ -1,6 +1,8 @@
 [English](README_en.md)
 
 # tex_translator
+
+基于 openai api 的 `TeX` 文档翻译器，可用于翻译论文。
 用于批量翻译 `.tex` 文件中的自然语言内容，支持通过 OpenAI API 进行翻译，并保留 LaTeX
 语法、命令、符号和格式。
 
@@ -12,23 +14,27 @@
 
 ### 安装和运行
 
-1. 克隆此仓库：
+1. 申请 OpenAi api key：
+   申请 `OpenAi` api key，中国大陆用户可以用转发端口，例如 [https://next.ohmygpt.com/apis](https://next.ohmygpt.com/apis)。
+   海外用户可以直接使用官方端口：[https://platform.openai.com/docs/overview](https://platform.openai.com/docs/overview)
+
+2. 克隆此仓库：
 
    ```bash
    git clone https://github.com/wilinz/tex_translator.git
    cd tex_translator
    ```
 
-2. 安装依赖：
+3. 安装依赖：
 
    ```bash
    dart pub get
    ```
 
-3. 运行程序：
+4. 运行程序：
 
    ```bash
-   dart run bin/tex_translator.dart --source <源文件夹路径> --apikey <OpenAI API密钥> --target <目标语言> [其他选项]
+   dart run bin/tex_translator.dart --source <源文件夹路径> --baseurl <OpenAI BaseURL> --apikey <OpenAI API密钥> --target <目标语言> [其他选项]
    ```
 
 ### 参数说明
@@ -51,18 +57,20 @@
 1. 基本使用：
 
    ```bash
-   dart run bin/tex_translator.dart --source ./tex_files --apikey YOUR_OPENAI_API_KEY --target zh-CN
+   dart run bin/tex_translator.dart --source ./tex_files --baseurl <OpenAI BaseURL> --apikey YOUR_OPENAI_API_KEY --target zh-CN
    ```
 
 2. 强制重新开始翻译：
 
    ```bash
-   dart run bin/tex_translator.dart --source ./tex_files --apikey YOUR_OPENAI_API_KEY --target zh-CN --force
+   dart run bin/tex_translator.dart --source ./tex_files --baseurl <OpenAI BaseURL> --apikey YOUR_OPENAI_API_KEY --target zh-CN --force
    ```
+
 翻译效果：
 原文：
 ![tex\_01.png](readme_assets/tex_01.png)![tex\_02.jpg](readme_assets/tex_02.png)
 翻译后：![tex\_tr\_01.png](readme_assets/tex_tr_01.png)![tex\_tr\_02.jpg](readme_assets/tex_tr_02.png)
+
 ### 许可
 
 本项目使用 MIT 许可证，详情请参见 [LICENSE](LICENSE)。

@@ -2,6 +2,7 @@
 
 # tex_translator
 
+'TeX' document translator based on the openai API that can be used to translate papers.
 This project is designed for batch translation of natural language content in `.tex` files, supporting translation via the OpenAI API while preserving LaTeX syntax, commands, symbols, and formatting.
 
 ### Feature Overview
@@ -11,6 +12,10 @@ This project is designed for batch translation of natural language content in `.
 3. **Translation Results**: The translation results will be saved in a new directory, with the folder structure matching the original folder.
 
 ### Installation and Execution
+
+1. Apply for OpenAI API Key:
+   To apply for an OpenAI API key, users in mainland China can use a proxy service, such as https://next.ohmygpt.com/apis.
+   Overseas users can directly use the official portal: https://platform.openai.com/docs/overview.
 
 1. Clone this repository:
 
