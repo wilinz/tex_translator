@@ -1,0 +1,16 @@
+\begin{table}[]
+\centering
+{\small
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\multicolumn{1}{c}{方法}                      & 召回率（\%） & 精確率（\%） & F1-分數（\%） \\ \midrule
+\multicolumn{1}{l}{CAM~\cite{zhou2016learning}\textsubscript{CVPR'16}} & 22.3        & 35.8           & 27.5           \\
+\multicolumn{1}{l}{SEAM~\cite{wang2020self}\textsubscript{CVPR'20}}    & 40.2        & 45.0           & 42.5           \\
+\multicolumn{1}{l}{BES~\cite{chen2020boundary}\textsubscript{ECCV'20}} & 45.5        & 46.4           & 45.9           \\
+\multicolumn{1}{l}{我們的 EPS}                        & 60.0        & 73.1          & 65.9           \\ \bottomrule
+\end{tabular}
+}
+\vspace{2mm}
+\caption{在 SBD trainval 集上評估的邊界準確性。請注意，BES 的結果是從~\cite{chen2020boundary}中提出的邊界預測網絡測量的。} \vspace{-2mm}
+\label{tab:boundary}
+\end{table}

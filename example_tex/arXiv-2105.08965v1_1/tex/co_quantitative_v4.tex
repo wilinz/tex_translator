@@ -1,0 +1,25 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+
+\newcommand{\R}{\textcolor{red}}
+\newcommand{\B}{\textcolor{blue}}
+
+\begin{table}[]
+\centering
+{\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+\multicolumn{1}{c}{\multirow{2}{*}{Method}} & \multicolumn{1}{c}{~\emph{boat} w/}   & \multicolumn{1}{c}{~\emph{train} w/}  & \multicolumn{1}{c}{~\emph{train} w/}  \\
+& \multicolumn{1}{c}{~\emph{water}} & \multicolumn{1}{c}{~\emph{railroad}}          & \multicolumn{1}{c}{~\emph{platform}}  \\ \midrule
+\multicolumn{1}{l}{CAM~\cite{zhou2016learning}\textsubscript{CVPR'16}}              & \B{0.74} (33.1)   & \B{0.11} (52.9)   & \multicolumn{1}{l}{\B{0.09} (49.6)}   \\
+\multicolumn{1}{l}{SEAM~\cite{wang2020self}\textsubscript{CVPR'20}}                 & \B{1.13} (30.7)   & \B{0.24} (48.6)   & \multicolumn{1}{l}{\B{0.20} (45.5)}   \\
+\multicolumn{1}{l}{ICD~\cite{fan2020learning}\textsubscript{CVPR'20}}               & \B{0.47} (41.4)   & \B{0.11} (56.7)   & \multicolumn{1}{l}{\B{0.09} (49.2)}   \\
+\multicolumn{1}{l}{SGAN~\cite{yao2020saliency}\textsubscript{ACCESS'20}}            & \B{0.10} (42.3)   & \B{0.02} (48.8)   & \multicolumn{1}{l}{\B{0.01} (36.3)}   \\
+\multicolumn{1}{l}{Our EPS}                                                         & \B{0.10} (55.0)   & \B{0.02} (78.1)   & \multicolumn{1}{l}{\B{0.01} (73.0)}   \\ \bottomrule
+\end{tabular}
+}
+\vspace{2mm}
+\caption{Comparison with representative existing methods handling the co-occurrence problem. Each entry is {$m_{k,c}$} in~\B{blue} (the lower the better) and IoU in the bracket (the higher the better).} \vspace{-2mm}
+\label{tab:co_quantitative_v4}
+
+\end{table}

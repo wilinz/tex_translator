@@ -1,0 +1,19 @@
+% 문서 서문에 다음의 필수 패키지를 추가하세요:
+% \usepackage{booktabs}
+\begin{table}[]
+\centering
+{\small
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\multicolumn{1}{c}{방법}                                                  &Seg.       &Sup.   & \multicolumn{1}{c}{val}           \\ \midrule
+\multicolumn{1}{l}{SEC~\cite{kolesnikov2016seed}\textsubscript{ECCV'16}}    & V1        &I.     & \multicolumn{1}{c}{22.4}          \\
+\multicolumn{1}{l}{DSRG~\cite{huang2018weakly}\textsubscript{CVPR'18}}      & V2        &I.+S.  & \multicolumn{1}{c}{26.0}          \\
+\multicolumn{1}{l}{ADL~\cite{choe2020attention}\textsubscript{TPAMI'20}}    & V1        &I.+S.  & \multicolumn{1}{c}{30.8}          \\
+\multicolumn{1}{l}{SGAN~\cite{yao2020saliency}\textsubscript{ACESS'20}}     & V2        &I.+S.  & \multicolumn{1}{c}{33.6}          \\ \midrule
+\multicolumn{1}{l}{우리의 EPS}                                                 & V2        &I.+S.  & \multicolumn{1}{c}{\textbf{35.7}} \\ \bottomrule
+\end{tabular}
+}
+\vspace{2mm}
+\caption{MS COCO 2014에서의 세그멘테이션 결과 (mIoU). 모든 결과는 VGG16을 기반으로 합니다.}\vspace{-2mm}
+\label{tab:seg_quantitative_coco}
+\end{table}

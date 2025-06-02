@@ -1,0 +1,18 @@
+\begin{table}[]
+\centering
+{\small
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\multicolumn{1}{c}{\multirow{2}{*}{Method}}         & w/o           & w/ &                                  w/ \\
+                                                    & refinement    & CRF~\cite{krahenbuhl2011efficient}    & AffinityNet~\cite{ahn2018learning}    \\ \midrule
+\multicolumn{1}{l}{CAM~\cite{zhou2016learning}\textsubscript{CVPR'16}}     & 48.0          & -                                     & 58.1                                  \\
+\multicolumn{1}{l}{SEAM~\cite{wang2020self}\textsubscript{CVPR'20}}        & 55.4          & 56.8                                  & 63.6                                  \\
+\multicolumn{1}{l}{ICD~\cite{chen2020boundary}\textsubscript{CVPR'20}*}     & 59.9          & 62.2                                  & -                                     \\
+\multicolumn{1}{l}{SGAN~\cite{yao2020saliency}\textsubscript{ACCESS'20}*}     & 62.8          & -                                     & -                                     \\
+\multicolumn{1}{l}{Our EPS}                            & 69.4          & 71.4                                  & 71.6                                  \\ \bottomrule
+\end{tabular}
+}
+\vspace{2mm}
+\caption{Accuracy (mIoU) of pseudo-masks evaluated on the PASCAL VOC 2012 train set. Note that * indicates that low-confident pixels are ignored; other methods use all pixels for evaluation.} \vspace{-3mm}
+\label{tab:refinement}
+\end{table}

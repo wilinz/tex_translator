@@ -63,12 +63,12 @@ Future<void> main(List<String> arguments) async {
     exit(0);
   }
 
-  final folderPath = argResults['source'] as String;
+  final sourcePath = argResults['source'] as String;
   final openaiApiKey = argResults['apikey'] as String;
   final baseUrl = argResults['baseurl'] as String;
   final targetLanguage = (argResults['target'] as String).toLowerCase();
   final outputDirPath =
-      argResults['output'] as String? ?? '${folderPath}_translated';
+      argResults['output'] as String? ?? '${sourcePath}_$targetLanguage';
   final forceTranslation = argResults['force'] as bool;
   final model = argResults['model'] as String;
   final temperature =
@@ -77,7 +77,7 @@ Future<void> main(List<String> arguments) async {
       int.tryParse(argResults['group-length'] as String? ?? "") ?? 5000;
 
   await translateTeX(
-    folderPath: folderPath,
+    folderPath: sourcePath,
     outputDirPath: outputDirPath,
     openaiApiKey: openaiApiKey,
     baseUrl: baseUrl,

@@ -1,0 +1,22 @@
+\newcommand{\R}{\textcolor{red}}
+\newcommand{\B}{\textcolor{blue}}
+
+\begin{table}[]
+\centering
+{\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+\multicolumn{1}{c}{\multirow{2}{*}{方法}} & \multicolumn{1}{c}{~\emph{船} w/}   & \multicolumn{1}{c}{~\emph{火车} w/}  & \multicolumn{1}{c}{~\emph{火车} w/}  \\
+& \multicolumn{1}{c}{~\emph{水}} & \multicolumn{1}{c}{~\emph{铁路}}          & \multicolumn{1}{c}{~\emph{站台}}  \\ \midrule
+\multicolumn{1}{l}{CAM~\cite{zhou2016learning}\textsubscript{CVPR'16}}              & \B{0.74} (33.1)   & \B{0.11} (52.9)   & \multicolumn{1}{l}{\B{0.09} (49.6)}   \\
+\multicolumn{1}{l}{SEAM~\cite{wang2020self}\textsubscript{CVPR'20}}                 & \B{1.13} (30.7)   & \B{0.24} (48.6)   & \multicolumn{1}{l}{\B{0.20} (45.5)}   \\
+\multicolumn{1}{l}{ICD~\cite{fan2020learning}\textsubscript{CVPR'20}}               & \B{0.47} (41.4)   & \B{0.11} (56.7)   & \multicolumn{1}{l}{\B{0.09} (49.2)}   \\
+\multicolumn{1}{l}{SGAN~\cite{yao2020saliency}\textsubscript{ACCESS'20}}            & \B{0.10} (42.3)   & \B{0.02} (48.8)   & \multicolumn{1}{l}{\B{0.01} (36.3)}   \\
+\multicolumn{1}{l}{我们的 EPS}                                                         & \B{0.10} (55.0)   & \B{0.02} (78.1)   & \multicolumn{1}{l}{\B{0.01} (73.0)}   \\ \bottomrule
+\end{tabular}
+}
+\vspace{2mm}
+\caption{与处理共现问题的代表性现有方法的比较。每个条目是 {$m_{k,c}$} 在~\B{蓝色} 中（越低越好），括号中的 IoU（越高越好）。} \vspace{-2mm}
+\label{tab:co_quantitative_v4}
+
+\end{table}

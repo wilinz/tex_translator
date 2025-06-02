@@ -15,7 +15,8 @@
 ### 安装和运行
 
 1. 申请 OpenAi api key：
-   申请 `OpenAi` api key，中国大陆用户可以用转发端口，例如 [https://next.ohmygpt.com/apis](https://next.ohmygpt.com/apis)。
+   申请 `OpenAi` api
+   key，中国大陆用户可以用转发端口，例如 [https://next.ohmygpt.com/apis](https://next.ohmygpt.com/apis)。
    海外用户可以直接使用官方端口：[https://platform.openai.com/docs/overview](https://platform.openai.com/docs/overview)
 
 2. 克隆此仓库：
@@ -39,18 +40,18 @@
 
 ### 参数说明
 
-| 参数               | 缩写      | 说明                                  | 默认值                      |
-|------------------|---------|-------------------------------------|--------------------------|
-| `--source`       | `-s`    | `.tex` 文件所在的根文件夹路径                  | 必填                       |
-| `--apikey`       | `-k`    | OpenAI API 密钥                       | 必填                       |
-| `--baseurl`      | `-b`    | OpenAI API Base URL                 | `https://api.openai.com` |
-| `--target`       | `-t`    | 目标语言（例如：zh-CN, ja-JP）               | ``                       |
-| `--output`       | `-o`    | 翻译后文件的输出目录，默认为 `<文件夹名称>_translated` |                          |
-| `--model`        | `-m`    | OpenAI 模型（例如：gpt-4o）                | `gpt-4o`                 |
-| `--temperature`  | `-temp` | 控制翻译的随机性（0.0-1.0）                   | `0`                      |
-| `--group-length` | `-gl`   | 翻译分组的最大字符数                          | `5000`                   |
-| `--force`        | `-f`    | 强制从头开始翻译（忽略进度文件）                    | `false`                  |
-| `--help`         | `-h`    | 显示帮助信息                              |                          |
+| 参数               | 缩写      | 说明                                               | 默认值                      |
+|------------------|---------|--------------------------------------------------|--------------------------|
+| `--source`       | `-s`    | `.tex` 文件所在的根文件夹路径                               | 必填                       |
+| `--apikey`       | `-k`    | OpenAI API 密钥                                    | 必填                       |
+| `--baseurl`      | `-b`    | OpenAI API Base URL                              | `https://api.openai.com` |
+| `--target`       | `-t`    | 目标语言（例如：zh-CN, ja-JP）                            | ``                       |
+| `--output`       | `-o`    | 翻译后文件的输出目录，默认为 `${sourcePath}_${targetLanguage}` |                          |
+| `--model`        | `-m`    | OpenAI 模型（例如：gpt-4o）                             | `gpt-4o`                 |
+| `--temperature`  | `-temp` | 控制翻译的随机性（0.0-1.0）                                | `0`                      |
+| `--group-length` | `-gl`   | 翻译分组的最大字符数                                       | `5000`                   |
+| `--force`        | `-f`    | 强制从头开始翻译（忽略进度文件）                                 | `false`                  |
+| `--help`         | `-h`    | 显示帮助信息                                           |                          |
 
 ### 示例
 
@@ -66,7 +67,10 @@
    dart run bin/tex_translator.dart --source ./tex_files --baseurl <OpenAI BaseURL> --apikey YOUR_OPENAI_API_KEY --target zh-CN --force
    ```
 
-翻译效果：
+### 翻译样例：
+[example_tex](example_tex)
+
+### 翻译效果：
 原文：
 ![tex\_01.png](readme_assets/tex_01.png)![tex\_02.jpg](readme_assets/tex_02.png)
 翻译后：![tex\_tr\_01.png](readme_assets/tex_tr_01.png)![tex\_tr\_02.jpg](readme_assets/tex_tr_02.png)

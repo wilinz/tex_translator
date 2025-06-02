@@ -3,18 +3,24 @@
 # tex_translator
 
 'TeX' document translator based on the openai API that can be used to translate papers.
-This project is designed for batch translation of natural language content in `.tex` files, supporting translation via the OpenAI API while preserving LaTeX syntax, commands, symbols, and formatting.
+This project is designed for batch translation of natural language content in `.tex` files,
+supporting translation via the OpenAI API while preserving LaTeX syntax, commands, symbols, and
+formatting.
 
 ### Feature Overview
 
-1. **Batch Translation Support**: Allows you to specify a folder containing multiple `.tex` files and translate their contents in bulk.
-2. **Translation Control**: Users can customize parameters like target language, translation model, temperature, and translation group length.
-3. **Translation Results**: The translation results will be saved in a new directory, with the folder structure matching the original folder.
+1. **Batch Translation Support**: Allows you to specify a folder containing multiple `.tex` files
+   and translate their contents in bulk.
+2. **Translation Control**: Users can customize parameters like target language, translation model,
+   temperature, and translation group length.
+3. **Translation Results**: The translation results will be saved in a new directory, with the
+   folder structure matching the original folder.
 
 ### Installation and Execution
 
 1. Apply for OpenAI API Key:
-   To apply for an OpenAI API key, users in mainland China can use a proxy service, such as https://next.ohmygpt.com/apis.
+   To apply for an OpenAI API key, users in mainland China can use a proxy service, such
+   as https://next.ohmygpt.com/apis.
    Overseas users can directly use the official portal: https://platform.openai.com/docs/overview.
 
 1. Clone this repository:
@@ -38,18 +44,18 @@ This project is designed for batch translation of natural language content in `.
 
 ### Parameter Explanation
 
-| Parameter        | Abbreviation | Description                                                                  | Default Value            |
-| ---------------- | ------------ | ---------------------------------------------------------------------------- | ------------------------ |
-| `--source`       | `-s`         | Path to the root folder containing `.tex` files                              | Required                 |
-| `--apikey`       | `-k`         | OpenAI API key                                                               | Required                 |
-| `--baseurl`      | `-b`         | OpenAI API Base URL                                                          | `https://api.openai.com` |
-| `--target`       | `-t`         | Target language (e.g., zh-CN, ja-JP)                                         | \`\` (empty)             |
-| `--output`       | `-o`         | Output directory for translated files, default is `<folder_name>_translated` |                          |
-| `--model`        | `-m`         | OpenAI model (e.g., gpt-4o)                                                  | `gpt-4o`                 |
-| `--temperature`  | `-temp`      | Controls the randomness of the translation (0.0-1.0)                         | `0`                      |
-| `--group-length` | `-gl`        | Maximum character count for translation groups                               | `5000`                   |
-| `--force`        | `-f`         | Force translation to start from the beginning (ignore progress file)         | `false`                  |
-| `--help`         | `-h`         | Show help information                                                        |                          |
+| Parameter        | Abbreviation | Description                                                                         | Default Value            |
+|------------------|--------------|-------------------------------------------------------------------------------------|--------------------------|
+| `--source`       | `-s`         | Path to the root folder containing `.tex` files                                     | Required                 |
+| `--apikey`       | `-k`         | OpenAI API key                                                                      | Required                 |
+| `--baseurl`      | `-b`         | OpenAI API Base URL                                                                 | `https://api.openai.com` |
+| `--target`       | `-t`         | Target language (e.g., zh-CN, ja-JP)                                                | \`\` (empty)             |
+| `--output`       | `-o`         | Output directory for translated files, default is `${sourcePath}_${targetLanguage}` |                          |
+| `--model`        | `-m`         | OpenAI model (e.g., gpt-4o)                                                         | `gpt-4o`                 |
+| `--temperature`  | `-temp`      | Controls the randomness of the translation (0.0-1.0)                                | `0`                      |
+| `--group-length` | `-gl`        | Maximum character count for translation groups                                      | `5000`                   |
+| `--force`        | `-f`         | Force translation to start from the beginning (ignore progress file)                | `false`                  |
+| `--help`         | `-h`         | Show help information                                                               |                          |
 
 ### Example
 
@@ -64,8 +70,12 @@ This project is designed for batch translation of natural language content in `.
    ```bash
    dart run bin/tex_translator.dart --source ./tex_files --apikey YOUR_OPENAI_API_KEY --target zh-CN --force
    ```
+   
+### Translation examples:
+[example_tex](example_tex)
 
-Translation Results:
+### Translation result:
+
 Original Text:
 ![tex\_01.png](readme_assets/tex_01.png)![tex\_02.jpg](readme_assets/tex_02.png)
 Translated Text:

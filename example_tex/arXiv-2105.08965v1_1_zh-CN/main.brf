@@ -1,0 +1,122 @@
+\backcite {pathak2015constrained, pinheiro2015image}{{1}{1}{section.1}}
+\backcite {lin2016scribblesup}{{1}{1}{section.1}}
+\backcite {khoreva2017simple}{{1}{1}{section.1}}
+\backcite {zhou2016learning}{{1}{1}{section.1}}
+\backcite {zhao2019pyramid}{{1}{1}{figure.1}}
+\backcite {zhou2016learning}{{1}{1}{figure.1}}
+\backcite {zhou2016learning}{{1}{1}{section.1}}
+\backcite {kim2017two}{{1}{1}{section.1}}
+\backcite {kolesnikov2016seed}{{1}{1}{section.1}}
+\backcite {choe2020attention,kim2017two, li2018tell}{{1}{1}{figure.1}}
+\backcite {jiang2019integral, lee2019ficklenet}{{1}{1}{figure.1}}
+\backcite {wang2020self}{{1}{1}{figure.1}}
+\backcite {fan2020learning,chen2020boundary}{{2}{1}{figure.1}}
+\backcite {choe2020evaluating}{{2}{1}{figure.1}}
+\backcite {BMVC2016_92}{{2}{1}{figure.1}}
+\backcite {oh2017exploiting, yao2020saliency}{{2}{1}{figure.1}}
+\backcite {BMVC2016_92,li2018tell}{{2}{1}{figure.1}}
+\backcite {oh2017exploiting}{{2}{1}{figure.1}}
+\backcite {yao2020saliency}{{2}{1}{figure.1}}
+\backcite {hou2017deeply,nguyen2019deepusps,zhao2019pyramid}{{2}{1}{figure.1}}
+\backcite {fan2020cian}{{2}{2}{section.2}}
+\backcite {liu2020leveraging}{{2}{2}{section.2}}
+\backcite {sun2020mining, zhang2020splitting}{{2}{2}{section.2}}
+\backcite {chang2020weakly}{{2}{2}{section.2}}
+\backcite {ahn2019weakly, ahn2018learning}{{2}{2}{section.2}}
+\backcite {zhang2020reliability}{{2}{2}{section.2}}
+\backcite {huang2018weakly, kolesnikov2016seed}{{2}{2}{section.2}}
+\backcite {araslanov2020single}{{2}{2}{section.2}}
+\backcite {fan2020employing}{{2}{2}{section.2}}
+\backcite {hou2017deeply, xiao2018deep, zhao2019pyramid}{{2}{2}{figure.2}}
+\backcite {wang2017learning}{{2}{2}{figure.2}}
+\backcite {fan2020cian, huang2018weakly, lee2019ficklenet, li2018tell, wei2017object, wei2018revisiting}{{2}{2}{figure.2}}
+\backcite {wei2016stc}{{2}{2}{figure.2}}
+\backcite {fan2018associating}{{2}{2}{figure.2}}
+\backcite {chaudhry_dcsp_2017, wang2018weakly, yao2020saliency}{{2}{2}{figure.2}}
+\backcite {zeng2019joint}{{2}{2}{figure.2}}
+\backcite {zeng2019joint}{{2}{2}{figure.2}}
+\backcite {fan2020learning,jiang2019integral,lee2019ficklenet,li2018tell,wang2020self,wei2017object}{{3}{3}{section.3}}
+\backcite {zhao2019pyramid}{{3}{3}{figure.3}}
+\backcite {hou2017deeply,nguyen2019deepusps,zhao2019pyramid}{{4}{3.1}{figure.3}}
+\backcite {fan2020learning,jiang2019integral,wang2018weakly, wei2016stc,yao2020saliency}{{4}{3.2}{equation.1}}
+\backcite {zhao2019pyramid}{{4}{3.2}{equation.1}}
+\backcite {zhao2019pyramid}{{5}{3.3}{equation.3}}
+\backcite {wang2017learning}{{5}{3.3}{equation.3}}
+\backcite {everingham2015pascal}{{5}{4}{section.4}}
+\backcite {lin2014microsoft}{{5}{4}{section.4}}
+\backcite {hariharan2011semantic}{{5}{4}{section.4}}
+\backcite {choe2020attention}{{5}{4}{section.4}}
+\backcite {caesar2018coco}{{5}{4}{section.4}}
+\backcite {zhou2016learning}{{5}{5.1}{figure.4}}
+\backcite {wang2020self}{{5}{5.1}{figure.4}}
+\backcite {chen2020boundary}{{5}{5.1}{figure.4}}
+\backcite {chen2020boundary}{{5}{1}{table.1}}
+\backcite {wu2019wider}{{5}{4}{section.4}}
+\backcite {deng2009imagenet}{{5}{4}{section.4}}
+\backcite {chen2014semantic}{{5}{4}{section.4}}
+\backcite {chen2017deeplab}{{5}{4}{section.4}}
+\backcite {chen2020boundary, wang2020self, zhou2016learning}{{5}{5.1}{subsection.5.1}}
+\backcite {hariharan2011semantic}{{5}{5.1}{subsection.5.1}}
+\backcite {chen2020boundary}{{5}{5.1}{subsection.5.1}}
+\backcite {huang2018weakly, kolesnikov2016seed, li2018tell, oh2017exploiting}{{5}{5.1}{table.1}}
+\backcite {mottaghi2014role}{{5}{5.1}{table.1}}
+\backcite {yao2020saliency}{{6}{5.1}{table.1}}
+\backcite {wang2020self}{{6}{5.1}{table.1}}
+\backcite {zhou2016learning}{{6}{5.1}{table.1}}
+\backcite {wang2020self}{{6}{5.1}{table.1}}
+\backcite {fan2020learning}{{6}{5.1}{table.1}}
+\backcite {yao2020saliency}{{6}{5.1}{table.1}}
+\backcite {krahenbuhl2011efficient}{{6}{5.2}{figure.5}}
+\backcite {ahn2018learning}{{6}{5.2}{figure.5}}
+\backcite {zhou2016learning}{{6}{5.2}{figure.5}}
+\backcite {wang2020self}{{6}{5.2}{figure.5}}
+\backcite {chen2020boundary}{{6}{5.2}{figure.5}}
+\backcite {yao2020saliency}{{6}{5.2}{figure.5}}
+\backcite {ahn2018learning,wang2020self}{{7}{5.3}{subsection.5.3}}
+\backcite {zhou2016learning}{{7}{5.3}{subsection.5.3}}
+\backcite {wang2020self}{{7}{5.3}{subsection.5.3}}
+\backcite {fan2020learning}{{7}{5.3}{subsection.5.3}}
+\backcite {yao2020saliency}{{7}{5.3}{subsection.5.3}}
+\backcite {ahn2018learning, fan2020learning, wang2020self}{{7}{5.3}{figure.6}}
+\backcite {krahenbuhl2011efficient}{{7}{5.3}{figure.6}}
+\backcite {ahn2018learning}{{7}{5.3}{figure.6}}
+\backcite {kolesnikov2016seed}{{7}{5.3}{subsection.5.3}}
+\backcite {ahn2018learning}{{7}{5.3}{subsection.5.3}}
+\backcite {fan2020learning}{{7}{5.3}{subsection.5.3}}
+\backcite {chen2020boundary}{{7}{5.3}{subsection.5.3}}
+\backcite {li2018tell}{{7}{5.3}{subsection.5.3}}
+\backcite {wang2018weakly}{{7}{5.3}{subsection.5.3}}
+\backcite {zeng2019joint}{{7}{5.3}{subsection.5.3}}
+\backcite {huang2018weakly}{{7}{5.3}{subsection.5.3}}
+\backcite {hou2018self}{{7}{5.3}{subsection.5.3}}
+\backcite {wei2018revisiting}{{7}{5.3}{subsection.5.3}}
+\backcite {lee2019ficklenet}{{7}{5.3}{subsection.5.3}}
+\backcite {jiang2019integral}{{7}{5.3}{subsection.5.3}}
+\backcite {fan2020learning}{{7}{5.3}{subsection.5.3}}
+\backcite {fan2020employing}{{7}{5.3}{subsection.5.3}}
+\backcite {zhang2020splitting}{{7}{5.3}{subsection.5.3}}
+\backcite {yao2020saliency}{{7}{5.3}{subsection.5.3}}
+\backcite {fan2020learning}{{8}{5.3}{table.5}}
+\backcite {chang2020weakly}{{8}{5.3}{table.5}}
+\backcite {chen2020boundary}{{8}{5.3}{table.5}}
+\backcite {liu2020leveraging}{{8}{5.3}{table.5}}
+\backcite {wang2018weakly}{{8}{5.3}{table.5}}
+\backcite {hou2018self}{{8}{5.3}{table.5}}
+\backcite {huang2018weakly}{{8}{5.3}{table.5}}
+\backcite {lee2019ficklenet}{{8}{5.3}{table.5}}
+\backcite {jiang2019integral}{{8}{5.3}{table.5}}
+\backcite {fan2020employing}{{8}{5.3}{table.5}}
+\backcite {sun2020mining}{{8}{5.3}{table.5}}
+\backcite {yao2020saliency}{{8}{5.3}{table.5}}
+\backcite {fan2020learning}{{8}{5.3}{table.5}}
+\backcite {kolesnikov2016seed}{{8}{5.3}{figure.6}}
+\backcite {huang2018weakly}{{8}{5.3}{figure.6}}
+\backcite {choe2020attention}{{8}{5.3}{figure.6}}
+\backcite {yao2020saliency}{{8}{5.3}{figure.6}}
+\backcite {yao2020saliency}{{8}{5.3}{table.7}}
+\backcite {yao2020saliency}{{8}{5.3}{table.7}}
+\backcite {zhao2019pyramid}{{8}{5.3}{table.7}}
+\backcite {hou2017deeply}{{8}{5.3}{table.7}}
+\backcite {jiang2019integral}{{8}{5.3}{table.7}}
+\backcite {fan2020learning}{{8}{5.3}{table.7}}
+\backcite {nguyen2019deepusps}{{8}{5.3}{table.7}}
